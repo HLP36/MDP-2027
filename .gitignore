@@ -1,0 +1,79 @@
+# =========================================================
+# MDP 2027 - ROOT GITIGNORE
+# =========================================================
+
+# -------------------------
+# Environment / Secrets
+# -------------------------
+.env
+.env.*
+!.env.example
+
+# -------------------------
+# Node.js
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# -------------------------
+# NestJS / Backend
+# -------------------------
+backend/dist/
+backend/coverage/
+backend/.cache/
+
+# Prisma generated client
+backend/src/generated/prisma/
+
+# -------------------------
+# Flutter
+# -------------------------
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/build/
+frontend/.pub-cache/
+frontend/coverage/
+
+# Flutter generated files
+frontend/android/.gradle/
+frontend/android/local.properties
+
+# -------------------------
+# IDE
+# -------------------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+.idea/
+*.iml
+
+# -------------------------
+# OS
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# Temporary files
+# -------------------------
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*~
+
+# -------------------------
+# Archives
+# -------------------------
+*.zip
+*.rar
+*.7z
