@@ -5,7 +5,7 @@ import {
 } from '@nestjs/common';
 
 import { PrismaService } from '../../prisma/prisma.service';
-import { OrganizationalUnitType } from '@prisma/client';
+import { OrganizationalUnitType } from '../../generated/prisma';
 
 import { CreateOrganizationalUnitDto } from './dto/create-organizational-unit.dto';
 import { UpdateOrganizationalUnitDto } from './dto/update-organizational-unit.dto';

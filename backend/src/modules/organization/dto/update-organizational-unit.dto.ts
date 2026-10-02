@@ -8,7 +8,7 @@ import {
   MinLength,
 } from 'class-validator';
 
-import { OrganizationalUnitType } from '@prisma/client';
+import { OrganizationalUnitType } from '../../../generated/prisma';
 
 // ======================================================
 // UPDATE ORGANIZATIONAL UNIT DTO

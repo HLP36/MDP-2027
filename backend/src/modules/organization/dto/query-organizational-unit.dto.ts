@@ -5,7 +5,7 @@ import {
   IsUUID,
 } from 'class-validator';
 
-import { OrganizationalUnitType } from '@prisma/client';
+import { OrganizationalUnitType } from '../../../generated/prisma';
 
 // ======================================================
 // QUERY ORGANIZATIONAL UNIT DTO
